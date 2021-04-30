@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AdminRepository" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAEAAAAAABAAAAAAAAAAAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>AdminRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseController" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAABAAIAAAAEACAAAAAgAAAgAAgAgAAA=</HashCode>
+      <FileName>DatabaseController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserRepository" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="DatabaseController" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="1.062" />
+        <Point X="8.25" Y="1.375" />
+        <Point X="5.188" Y="1.375" />
+        <Point X="5.188" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdminController">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <AssociationLine Name="carModel" Type="CarModel" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="6.704" />
+        <Point X="11" Y="7.375" />
+        <Point X="7.333" Y="7.375" Type="JumpStart" />
+        <Point X="7.167" Y="7.375" Type="JumpEnd" />
+        <Point X="3.906" Y="7.375" />
+        <Point X="3.906" Y="7.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIEAAAAAgAAAAAAACAAAAAAEAAAAAAABABAAA=</HashCode>
+      <FileName>AdminController.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="carModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CarController">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAQEQAAAQEAAAAAAAEAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>CarController.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="inputCarModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LoginController">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAhAAIAAABAAAAAAAAAAAAAAIgA=</HashCode>
+      <FileName>LoginController.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userInputModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LoginWindowClass">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <Members>
+      <Field Name="loginController" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAEABQAAAAEBAAAAAIABAAAAACAAAAAAA=</HashCode>
+      <FileName>LoginWindowClass.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="loginController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="QtAdminPanel">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACACIEAAQgAAEAACCAAAACMAQIAABAAIAAQA=</HashCode>
+      <FileName>QtAdminPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="qtCarShowroom">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQEwAQACCAAACAAAAAEAAQIgABAJIIAAA=</HashCode>
+      <FileName>qtCarShowroom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarModel" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAQAACAAAABAAAAEAAAAAAAEgA=</HashCode>
+      <FileName>CarModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginModel" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAEAA=</HashCode>
+      <FileName>LoginModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

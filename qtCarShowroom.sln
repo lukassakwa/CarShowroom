@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtCarShowroom", "qtCarShowroom.vcxproj", "{CCF29A6D-6751-41C3-BFC8-DBEC5A2CA72F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCF29A6D-6751-41C3-BFC8-DBEC5A2CA72F}.Debug|x64.ActiveCfg = Debug|x64
+		{CCF29A6D-6751-41C3-BFC8-DBEC5A2CA72F}.Debug|x64.Build.0 = Debug|x64
+		{CCF29A6D-6751-41C3-BFC8-DBEC5A2CA72F}.Release|x64.ActiveCfg = Release|x64
+		{CCF29A6D-6751-41C3-BFC8-DBEC5A2CA72F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EAF569D-9B73-4DEC-97C9-E5B8E5E41D2A}
+	EndGlobalSection
+EndGlobal
