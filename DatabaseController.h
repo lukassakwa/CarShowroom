@@ -15,8 +15,8 @@ protected:
 	const QString sqlDriver = "QMYSQL";
 	const QString host = "localhost";
 	const QString database = "carshowroom";
-	const QString username = "oliwier";
-	const QString password = "toor";
+	const QString username = "username";
+	const QString password = "password";
 	QString table = "";
 	const int port = 3306;
 };
